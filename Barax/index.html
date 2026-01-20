@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barax Cyber Cafe - Premium Gaming & Computer Services</title>
+    <link rel="icon" type="image/png" href="barax logo.png">
+    <link rel="shortcut icon" type="image/png" href="barax logo.png">
+    <link rel="apple-touch-icon" href="barax logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav class="navbar">
+            <div class="container nav-container">
+              <a href="#home" class="logo">
+    <img src="barax logo.png" alt="Barax Logo" class="header-logo-img">
+    <div class="logo-text">
+        <span class="logo-barax">BARAX</span>
+        <span class="logo-cyber">CYBERCAFE</span>
+    </div>
+</a>
+                <button class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#services" class="nav-link">Rates</a></li>
+                    <li><a href="#games" class="nav-link">Games</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#location" class="nav-link">Location</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="status-badge" id="statusBadge">
+                <span class="status-dot"></span>
+                <span class="status-text">Open Now</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="glitch" data-text="BARAX CAFE">BARAX CYBERCAFE</span>
+            </h1>
+            <p class="hero-subtitle">Premium Gaming</p>
+            <p class="hero-description">Barax is a cyber cafe which provides quality gaming experience.</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary">View Rates</a>
+                <a href="#contact" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Promo Banner -->
+    <section class="promo-banner">
+        <div class="container">
+            <div class="promo-content">
+                <i class="fas fa-bolt"></i>
+                <span>PREMIUM MIDNIGHT SESSIONS: Experience 7 Hours of High-Performance Play for just ₱100!</span>
+                <i class="fas fa-bolt"></i>
+                <span>PREMIUM MIDNIGHT SESSIONS: Experience 7 Hours of High-Performance Play for just ₱100!</span>
+                <i class="fas fa-bolt"></i>
+                <span>PREMIUM MIDNIGHT SESSIONS: Experience 7 Hours of High-Performance Play for just ₱100!</span>
+                <i class="fas fa-bolt"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- PC Rental Rates Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">PC Rental Rates & Promos</h2>
+                <p class="section-subtitle">Affordable gaming packages for everyone</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card promo-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Hourly Rate</h3>
+                    <p>Perfect for quick gaming sessions or short-term usage</p>
+                    <div class="service-price">
+                        <span class="price">₱25/hour</span>
+                    </div>
+                </div>
+
+                <div class="service-card promo-card featured" data-aos="fade-up" data-aos-delay="100">
+                    <div class="promo-badge">BEST VALUE</div>
+                    <div class="service-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3>3 Hours Package</h3>
+                    <p>Great deal for extended gaming with friends</p>
+                    <div class="service-price">
+                        <span class="price">₱60/3hrs</span>
+                        <span class="price-note">Save ₱15!</span>
+                    </div>
+                </div>
+
+                <div class="service-card promo-card special" data-aos="fade-up" data-aos-delay="200">
+                    <div class="promo-badge midnight">MIDNIGHT PROMO</div>
+                    <div class="service-icon">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <h3>Late Night Special</h3>
+                    <p>3 hours of gaming during midnight hours</p>
+                    <div class="service-price">
+                        <span class="price">₱50/3hrs</span>
+                        <span class="price-note">12AM - 6AM Only</span>
+                    </div>
+                </div>
+
+                <div class="service-card promo-card popular" data-aos="fade-up" data-aos-delay="300">
+                    <div class="promo-badge popular">MOST POPULAR</div>
+                    <div class="service-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Midnight Promo</h3>
+                    <p>Ultimate gaming experience for hardcore gamers</p>
+                    <div class="service-price">
+                        <span class="price">₱100/7hrs</span>
+                        <span class="price-note">12AM - 6AM Only</span>
+                        <span class="price-note">Save ₱75!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Games Section -->
+    <section id="games" class="games-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Available Games</h2>
+                <p class="section-subtitle">Play the latest and most popular titles</p>
+            </div>
+            <div class="games-grid">
+                <div class="game-card" data-aos="fade-up">
+                    <div class="game-logo">
+                        <img src="VALO.avif" alt="Valorant">
+                    </div>
+                    <h4>VALORANT</h4>
+                </div>
+                <div class="game-card" data-aos="fade-up" data-aos-delay="50">
+                    <div class="game-logo">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/League_of_Legends_2019_vector.svg" alt="League of Legends">
+                    </div>
+                    <h4>League of Legends</h4>
+                </div>
+                <div class="game-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="game-logo">
+                        <img src="gtax.jpg" alt="GTA V">
+                    </div>
+                    <h4>GTA V</h4>
+                </div>
+                <div class="game-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="game-logo">
+                       <img src="cfs.jpg" alt="CrossFire">
+                    </div>
+                    <h4>CrossFire</h4>
+                </div>
+                <div class="game-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="game-logo">
+                        <img src="csg.webp" alt="CS:GO">
+                    </div>
+                    <h4>CS:GO2</h4>
+                </div>
+                <div class="game-card" data-aos="fade-up" data-aos-delay="250">
+                    <div class="game-logo">
+                        <img src="dt2.webp" alt="DOTA 2">
+                    </div>
+                    <h4>DOTA 2</h4>
+                </div>
+                <div class="game-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="game-logo">
+                        <img src="apeks.jpg" alt="Apex Legends">
+                    </div>
+                    <h4>Apex Legends</h4>
+                </div>
+                <div class="game-card" data-aos="fade-up" data-aos-delay="350">
+                    <div class="game-logo">
+                        <img src="fort.webp" alt="Fortnite">
+                    </div>
+                    <h4>Fortnite</h4>
+                </div>
+                <div class="game-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="game-logo">
+                       <img src="rob.png" alt="Roblox">
+                    </div>
+                    <h4>Roblox</h4>
+                </div>
+                <div class="game-card more-games" data-aos="fade-up" data-aos-delay="550">
+  <svg width="32" height="32" viewBox="0 0 24 24" fill="none"
+       stroke="currentColor" stroke-width="2"
+       stroke-linecap="round" stroke-linejoin="round"
+       aria-hidden="true">
+    <line x1="12" y1="5" x2="12" y2="19"></line>
+    <line x1="5" y1="12" x2="19" y2="12"></line>
+  </svg>
+  <h4>And More!</h4>
+</div>
+
+            </div>
+            <div class="games-note">
+                <p>💡 Don't see your favorite game? Request installation at the counter!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PC Specs Section -->
+    <section class="pc-specs">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Gaming PC Specifications</h2>
+                <p class="section-subtitle">High-end hardware for the best gaming experience</p>
+            </div>
+            <div class="specs-grid">
+                <div class="spec-item">
+                    <i class="fas fa-microchip"></i>
+                    <h4>Processor</h4>
+                    <p>AMD Ryzen 5 5600G with Radeon Graphics</p>
+                </div>
+                <div class="spec-item">
+                    <i class="fas fa-memory"></i>
+                    <h4>RAM</h4>
+                    <p>16GB DDR4 Gaming Memory</p>
+                </div>
+                <div class="spec-item">
+                    <i class="fas fa-hdd"></i>
+                    <h4>Graphics</h4>
+                    <p>NVIDIA GeForce GTX 1650</p>
+                </div>
+                <div class="spec-item">
+                    <i class="fas fa-tv"></i>
+                    <h4>Monitor</h4>
+                    <p>24" Full HD Gaming Display</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Facility</h2>
+                <p class="section-subtitle">Take a look inside our modern cyber cafe</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" onclick="openLightbox(0)">
+                    <img src="br1.jpg" alt="Gaming Area">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <p>Gaming Area</p>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openLightbox(1)">
+                    <img src="br3.jpg" alt="FrontDesk">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <p>Front Desk</p>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openLightbox(2)">
+                    <img src="br4.jpg" alt="Interior">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <p>Interior View</p>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openLightbox(3)">
+                    <img src="br5.jpg" alt="FacilityOverview">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <p>Facility Overview</p>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openLightbox(4)">
+                    <img src="br6.jpg" alt="TheHub">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <p>The Hub</p>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openLightbox(5)">
+                    <img src="br7.jpg" alt="BaraxFacility">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <p>Barax Facility</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+        <span class="lightbox-prev" onclick="changeImage(-1)">&#10094;</span>
+        <span class="lightbox-next" onclick="changeImage(1)">&#10095;</span>
+        <img id="lightboxImage" src="" alt="">
+    </div>
+
+    <!-- Location Section -->
+    <section id="location" class="location">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Visit Us</h2>
+                <p class="section-subtitle">Find us at our convenient location</p>
+            </div>
+            <div class="location-content">
+                <div class="location-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>18 Balingasa Road<br>Quezon City, Metro Manila</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Operating Hours</h4>
+                            <p id="operatingHours">Monday - Sunday: 8:00 AM - 12:00 AM</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-landmark"></i>
+                        <div>
+                            <h4>Landmarks</h4>
+                            <p>Along Balingasa Road<br>Near Puregold A. Bonifacio<br>Accessible via public transport</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="location-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.4657238890843!2d120.9953085!3d14.6510884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b687c105c2d7%3A0xf3ee3478f9dc6198!2s18%20Balingasa%20Rd%2C%20Quezon%20City%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1704924000000!5m2!1sen!2sph" 
+                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Customers Say</h2>
+                <p class="section-subtitle">Real feedback from our valued clients</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Best cyber cafe in the area! Fast internet and comfortable gaming setups. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <strong>T1 Faker</strong>
+                        <span>Regular Customer</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Affordable rates and excellent service. The staff are very accommodating. Perfect for students!"</p>
+                    <div class="testimonial-author">
+                        <strong>Kai Sotto</strong>
+                        <span>Student</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Clean facility with high-end PCs. Perfect for gaming sessions with friends. Will definitely come back!"</p>
+                    <div class="testimonial-author">
+                        <strong>Lebron James</strong>
+                        <span>Gamer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Got questions? We've got answers</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <h4>What are your operating hours?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We operate 24/7, ensuring our services are available anytime you need them.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <h4>Do I need to bring my own keyboard and mouse?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No need! All our stations are equipped with gaming-grade keyboards and mice.
+You're also welcome to bring your own peripherals — each station has a USB hub where you can plug in your keyboard, mouse, or controller. You can also charge your devices via USB, just bring your own cable.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <h4>What games are available?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We have a wide selection including Valorant, League of Legends, Dota 2, CS:GO, GTA V, and many more. Feel free to request installations!</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <h4>What are the specifications of your PCs??</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>All units are powered by high-performance gaming PCs designed to handle both competitive and casual gaming smoothly.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <h4>Can I bring food and drinks?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Light snacks and beverages are allowed. We kindly ask guests to handle all equipment with care at all times.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Level up your experience</h2>
+                <p class="section-subtitle">let's connect and game better.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+639123456789">+63 912 345 6789</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:baraxcybercafe@gmail.com">baraxcybercafe@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-facebook"></i>
+                        <div>
+                            <h4>Facebook</h4>
+                            <a href="https://www.facebook.com/BaraxCyberCafe" target="_blank">@BaraxCyberCafe</a>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/BaraxCyberCafe" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="baraxcybercafe@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+    <form id="contactForm" class="contact-form" 
+          action="https://formsubmit.co/llamoronald1@gmail.com" 
+          method="POST">
+        
+        <!-- FormSubmit Configuration -->
+        <input type="hidden" name="_subject" value="New Message from Barax Cyber Cafe Website">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="text" name="_honey" style="display:none">
+        
+        <div class="form-group">
+            <input type="text" name="name" id="name" placeholder="Your Name" required>
+            <span class="error-message" id="nameError"></span>
+        </div>
+        <div class="form-group">
+            <input type="email" name="email" id="email" placeholder="Your Email" required>
+            <span class="error-message" id="emailError"></span>
+        </div>
+        <div class="form-group">
+            <textarea name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
+            <span class="error-message" id="messageError"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <div id="formSuccess" class="success-message"></div>
+    </form>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><span class="logo-barax">BARAX</span> <span class="logo-cafe">CAFE</span></h3>
+                    <p>Your premium destination for gaming and computer services in Quezon City.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Rates</a></li>
+                        <li><a href="#games">Games</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#location">Location</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Rental Rates</h4>
+                    <ul>
+                        <li>Hourly: ₱25</li>
+                        <li>3 Hours: ₱60</li>
+                        <li>Midnight: ₱50/3hrs</li>
+                        <li>7 Hours: ₱100</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-phone"></i> +63 912 345 6789</p>
+                    <p><i class="fas fa-envelope"></i> baraxcybercafe@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 18 Balingasa Rd, Quezon City</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Barax Cyber Cafe. All rights reserved.</p>
+                
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTop" class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
