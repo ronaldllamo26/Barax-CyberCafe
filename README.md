@@ -1,4 +1,4 @@
-# Barax Cybercafe Landing Page
+# Barax Cybercafe 
 
 Welcome to the **Barax Cybercafe Landing Page** repository. This project represents the official online presence for Barax Cybercafe, a computer shop and gaming hub.
 
